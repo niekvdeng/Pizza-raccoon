@@ -33,3 +33,6 @@ keeps the font loading and audio behaviour the same as in production.
   collision blocks both axes otherwise and they would be trapped forever.
 - Progress is saved to `localStorage` under `mapache-v2`. Bump that key if the
   save shape changes.
+- The published build lives at the Artifact URL in `README.md`. To update it you
+  must pass that URL explicitly — republishing without it creates a *second*,
+  unrelated artifact and the original link stops receiving changes.
