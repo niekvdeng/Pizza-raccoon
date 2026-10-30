@@ -1,3 +1,5 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Pizza Raccoon</title>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Alegreya:ital,wght@0,400;0,700;1,400&family=Alegreya+Sans:wght@400;500;700&display=swap">
@@ -196,7 +198,7 @@ dl.specs dd{margin:0;color:#3a3042}
 
 /* touch */
 .touch{position:absolute;inset:0;display:none;z-index:5}
-body.touch .touch{display:block}
+body.is-touch .touch{display:block}
 .stick{position:absolute;left:12px;bottom:12px;width:104px;height:104px;border-radius:50%;
   background:rgba(20,14,28,.4);border:2px solid rgba(241,231,212,.22)}
 .stick i{position:absolute;left:50%;top:50%;width:40px;height:40px;margin:-20px 0 0 -20px;border-radius:50%;
@@ -2043,7 +2045,7 @@ addEventListener('keyup',e=>{keys[e.key.toLowerCase()]=false;});
 addEventListener('blur',()=>{for(const k in keys) keys[k]=false;});
 
 const touch={ax:0,ay:0,active:false};
-if(matchMedia('(hover:none)').matches) document.body.classList.add('touch');
+if(matchMedia('(hover:none)').matches) document.body.classList.add('is-touch');
 const stick=$('stick'),nub=$('stickNub');
 function stickMove(e){
   const t=e.touches?e.touches[0]:e, r=stick.getBoundingClientRect();

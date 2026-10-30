@@ -3,8 +3,9 @@
 A raccoon steals ten real Mexican artefacts back from a firm of smugglers in
 uniform, using a pizza cutter. Top-down, browser-based, no install.
 
-**Play:** open `index.html` in any browser.
-**Published build:** <https://claude.ai/code/artifact/3c0bf033-fd86-48e8-902d-d1823d2935de> (private)
+**Play:** <https://niekvdeng.github.io/Pizza-raccoon/> — works on phones too.
+Or open `index.html` in any browser.
+**Claude artifact build:** <https://claude.ai/code/artifact/3c0bf033-fd86-48e8-902d-d1823d2935de> (private to the owner)
 
 ---
 
